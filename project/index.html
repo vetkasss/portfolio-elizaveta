@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Elizaveta — Portfolio</title>
+
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+<div class="bg"></div>
+<div class="noise"></div>
+
+<button class="menu" id="menuBtn">☰</button>
+
+<nav class="sidebar" id="sidebar">
+  <a href="#hero">Главная</a>
+  <a href="#about">Обо мне</a>
+  <a href="#skills">Навыки</a>
+  <a href="#stats">Опыт</a>
+  <a href="#certs">Сертификаты</a>
+  <a href="#contacts">Контакты</a>
+</nav>
+
+<main>
+
+<section class="hero" id="hero">
+  <h1 class="title">Елизавета</h1>
+  <p class="subtitle">Frontend • UI/UX • Developer</p>
+</section>
+
+<section class="card" id="about">
+  <h2>Обо мне</h2>
+  <p>Создаю быстрые, красивые и современные интерфейсы.</p>
+</section>
+
+<section class="card" id="skills">
+  <h2>Навыки</h2>
+
+  <div class="grid">
+    <div class="chip">HTML</div>
+    <div class="chip">CSS</div>
+    <div class="chip">SCSS</div>
+    <div class="chip">JavaScript</div>
+    <div class="chip">TypeScript</div>
+    <div class="chip">React</div>
+    <div class="chip">Vue</div>
+    <div class="chip">Next.js</div>
+    <div class="chip">Redux</div>
+    <div class="chip">Git</div>
+    <div class="chip">Figma</div>
+    <div class="chip">Photoshop</div>
+    <div class="chip">UI/UX</div>
+    <div class="chip">1C</div>
+  </div>
+</section>
+
+<section class="card" id="stats">
+  <h2>Опыт</h2>
+
+  <div class="stats">
+    <div><span>10+</span><p>Проектов</p></div>
+    <div><span>29</span><p>Сертификатов</p></div>
+    <div><span>2+</span><p>Года опыта</p></div>
+  </div>
+</section>
+
+<section class="card" id="certs">
+  <h2>Сертификаты</h2>
+  <div class="gallery" id="gallery"></div>
+</section>
+
+<section class="card" id="contacts">
+  <h2>Контакты</h2>
+  <p>Email: elizavetaliask@mail.ru</p>
+  <p>Telegram: @vetkaass</p>
+</section>
+
+</main>
+
+
+<div class="modal" id="modal">
+  <span id="close">×</span>
+  <img id="modalImg">
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
